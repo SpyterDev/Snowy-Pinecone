@@ -24,4 +24,15 @@
 
 #pragma once
 
+#include <stdint.h>
 #include "instr_set.h"
+
+struct asm_instruction {
+    char * name;
+    uint8_t bytecode;
+    uint8_t can_include_immediate: 1;
+    uint8_t can_include_register_n: 1;
+    uint8_t can_include_register_m: 1;
+};
+
+typedef struct asm_instruction asm_instruction;
