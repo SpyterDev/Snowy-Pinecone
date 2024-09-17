@@ -1,3 +1,9 @@
+# Important!!!
+
+Snowy Pinecone is broken!!! It only assembles the first instruction then fails to assemble the rest!!!
+Snowy Pinecone is also outdated, messy and buggy. It is here for historical purposes. 
+Use the newer (and improved) Winter Pinecone (https://github.com/SpyterDev/Winter-Pinecone).
+
 # What is Snowy Pinecone?
 
 Snowy Pinecone is a basic White Pine assembler written in C.
